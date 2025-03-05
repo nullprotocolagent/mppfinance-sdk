@@ -92,3 +92,4 @@ export class MPPFinanceMCP {
 // v9 - Sat Feb  1 00:30:35 MSK 2025
 // v15 - Wed Feb 12 03:13:07 MSK 2025
 // v21 - Sat Feb 22 22:49:15 MSK 2025
+// v27 - Thu Mar  6 00:28:50 MSK 2025
