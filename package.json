@@ -1,7 +1,7 @@
 {
   "name": "mppfinance",
-  "version": "0.1.4",
-  "description": "Virtual Visa cards for AI agents — powered by Machine Payments Protocol",
+  "version": "0.1.5",
+  "description": "Virtual Visa cards for AI agents \u2014 powered by Machine Payments Protocol",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -11,9 +11,6 @@
       "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
     }
-  },
-  "bin": {
-    "mppfinance": "./dist/cli.js"
   },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
@@ -38,21 +35,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nullprotocolagent/mppfinance-sdk.git"
+    "url": "https://github.com/mppfinance/mppfinance-sdk.git"
   },
   "homepage": "https://v0-mppf-inance-landing-page.vercel.app",
   "dependencies": {
     "eventemitter3": "^5.0.1"
   },
   "devDependencies": {
-    "tsup": "^8.0.0",
-    "typescript": "^5.4.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
     "vitest": "^1.4.0"
   }
 }
-// v5 - Fri Jan 24 10:42:59 MSK 2025
-// v11 - Tue Feb  4 14:33:55 MSK 2025
-// v17 - Sat Feb 15 19:11:42 MSK 2025
-// v23 - Wed Feb 26 17:47:57 MSK 2025
-// v29 - Sun Mar  9 20:07:05 MSK 2025
-// v35 - Fri Mar 21 01:19:30 MSK 2025
