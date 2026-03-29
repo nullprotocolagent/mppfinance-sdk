@@ -1,20 +1,23 @@
 {
   "name": "mppfinance",
-  "version": "0.1.5",
-  "description": "Virtual Visa cards for AI agents \u2014 powered by Machine Payments Protocol",
+  "version": "0.1.6",
+  "description": "Virtual Visa cards for AI agents — powered by Machine Payments Protocol",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "bin": {
+    "mppfinance": "dist/cli.js"
+  },
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.js"
     }
   },
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
-    "dev": "tsup src/index.ts --watch",
+    "build": "tsup src/index.ts src/cli.ts --format cjs --dts && tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts src/cli.ts --watch",
     "test": "vitest run",
     "lint": "eslint src/",
     "prepublishOnly": "npm run build"
@@ -42,6 +45,7 @@
     "eventemitter3": "^5.0.1"
   },
   "devDependencies": {
+    "@types/node": "^25.5.0",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
     "vitest": "^1.4.0"
