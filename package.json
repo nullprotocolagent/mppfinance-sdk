@@ -40,7 +40,7 @@
     "type": "git",
     "url": "https://github.com/mppfinance/mppfinance-sdk.git"
   },
-  "homepage": "https://v0-mppf-inance-landing-page.vercel.app",
+  "homepage": "https://mppfinance.xyz",
   "dependencies": {
     "eventemitter3": "^5.0.1"
   },

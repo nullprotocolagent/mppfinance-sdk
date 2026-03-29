@@ -11,7 +11,7 @@
 [![CI](https://github.com/nullprotocolagent/mppfinance-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/nullprotocolagent/mppfinance-sdk/actions)
 [![Twitter](https://img.shields.io/twitter/follow/mppfinance?style=social)](https://x.com/mppfinance)
 
-[Website](https://v0-mppf-inance-landing-page.vercel.app) · [Docs](https://github.com/nullprotocolagent/mppfinance-sdk/tree/main/docs) · [NPM](https://www.npmjs.com/package/@mppfinance/sdk)
+[Website](https://mppfinance.xyz) · [Docs](https://github.com/mppfinance/mppfinance-sdk/tree/main/docs) · [NPM](https://www.npmjs.com/package/mppfinance)
 
 </div>
 
